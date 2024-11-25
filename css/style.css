@@ -71,7 +71,6 @@ body{
     flex-direction: column;
     background-color: white;
     width: 350px;
-    padding-bottom: 30px;
     border-radius: 40px;
     margin: 40px;
 }
@@ -109,9 +108,10 @@ body{
         max-width: 80px;
     }
     h2 {
-        font-size: 12pt;
+        font-size: 10pt;
     }
     #login {
         font-size: 10pt;
+        margin-bottom: 10px;
     }
 }

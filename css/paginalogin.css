@@ -228,11 +228,19 @@ h1{
         align-items: center;
     }
     .cartao {
-        max-width: 30em;
-        min-width: 30em;
+        max-width: 13em;
+        min-width: 13em;
     }
     #container {
-        gap: 61px;
+        max-width: 30em;
+    }
+    img {
+        width: 160px;
+        height: auto;
+    }
+    h1 {
+        padding: 15px;
+        font-size: 10pt;
     }
 }
 
@@ -258,9 +266,16 @@ h1{
 @media screen and (min-width: 1025px) {
     #container{
         gap: 14px;
+        max-width: 1025px;
     }
     .cartao {
-        max-width: 214px;
-        min-width: 214px;
+        max-width: 200px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    #container {
+        max-width: 1400px;
     }
 }
