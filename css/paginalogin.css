@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+/*img {
+    width: 216px;
+    height: 324px;
+}*/
+
+img{
+    width: 270px;
+    height: 405px;
+}
+
+header {
+    background-color: #424242;
+    display: flex;
+    flex-direction: row;        
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 14pt;
+    padding: 30px;
+    height: 40px;
+}
+
+#title{
+    color: white;
+    font-family: "Aldrich", sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#logout {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    font-family: "Aldrich", sans-serif;
+}
+
+#escudo {
+    margin: 15px;
+    width: 80px;
+    height: auto;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    max-width: 1400px;
+}
+
+.cartao {
+    color: white;
+    background-color: #424242;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 15px;
+    max-width: 18em;
+    min-width: 18em;
+    text-align: center;
+    font-family: "Aldrich", sans-serif;
+}
+
+.cartao:hover {
+    background-color: black;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 15px;
+}
+
+#botaohomi {
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: #424242;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    font-size: 15pt;
+}
+
+#botaohomi:hover {
+    background-color: black;
+}
+
+#botaomuie {
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: #424242;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    font-size: 15pt;
+}
+
+#botaomuie:hover {
+    background-color: black;
+}
+
+#botaotodes {
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: #424242;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    font-size: 15pt;
+}
+
+#botaotodes:hover {
+    background-color: black;
+}
+
+#limpa {
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: #424242;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    font-size: 15pt;
+}
+
+#limpa:hover {
+    background-color: black;
+}
+
+#pesquisar {
+    font-size: 13pt;
+    width: 240px;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) { 
+    #escudo {
+        margin: 0;
+        margin-left: 6px;
+        width: 50px;
+        height: auto;
+    }
+    #botaohomi {
+        width: 50px;
+        height: 40px;
+        font-size: 8px;
+        text-align: center;
+    }
+    #botaomuie {
+        width: 50px;
+        height: 40px;
+        font-size: 9px;
+        text-align: center;
+    }
+    #botaotodes {
+        width: 50px;
+        height: 40px;
+        font-size: 9px;
+        text-align: center;
+    }
+    #limpa {
+        width: 50px;
+        height: 40px;
+        font-size: 9px;
+        text-align: center;
+    }
+    #botoes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        gap: 5px;
+    }
+    #pesquisar {
+        font-size: 8pt;
+        width: 70px;
+        height: 15px;
+    }
+    #logout {
+        margin-right: 0px;
+        width: 80px;
+        height: 20px;
+        font-size: 6pt;
+    }
+    #title{
+        font-size: 8pt;
+    }
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+    .cartao {
+        max-width: 30em;
+        min-width: 30em;
+    }
+    #container {
+        gap: 61px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .cartao {
+        max-width: 13em;
+        min-width: 13em;
+    }
+    img {
+        width: 200px;
+        height: auto;
+    }
+    #container{
+        gap: 18px;
+    }   
+    h1{
+        font-size: 13px;
+        padding: 14px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #container{
+        gap: 14px;
+    }
+    .cartao {
+        max-width: 214px;
+        min-width: 214px;
+    }
+}

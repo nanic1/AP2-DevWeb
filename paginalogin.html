@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atletas Botafogo</title>
+    <link rel="stylesheet" href="css/paginalogin.css">
+    <script type="text/javascript" src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="escudo" src="escudo.png" alt="">
+        <p id="title">TIME DO BOTAFOGO 2024</p>
+        <button id="logout" onclick="saiu()">LOGOUT</button>
+    </header>
+    <div id="botoes">
+        <button id="botaohomi" onclick="masc()">Masculino</button>
+        <button id="botaomuie" onclick="muie()">Feminino</button>
+        <button id="botaotodes" onclick="semliberta()">Elenco completo</button>
+        <button id="limpa" onclick="limpafil()">Limpar Pesquisa</button>
+        <input type="" id="pesquisar" oninput="filtroPesquisa()">
+    </div>
+    <div id="container"></div>  
+</body>
+</html>

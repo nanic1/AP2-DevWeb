@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+* {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Aldrich", serif;
+    margin: 6px;
+}
+
+h1 {
+    font-size: 20pt;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body{
+    background-color: #424242;
+}
+
+#tudao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 200px;
+    margin: 80px;
+}
+
+#escudo {
+    width: 160px;
+    height: auto;
+}
+
+#password{
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+
+#login{
+    border: none;
+    font-size: 14pt;
+    background-color: #424242;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Inter";
+}
+
+#quadrado1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    padding-bottom: 30px;
+    border-radius: 60px;
+}
+
+#quadrado2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    margin: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    #tudao {
+        padding-top: 0px;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #escudo {
+        width: 80px;
+        height: auto;
+    }
+    #quadrado1 {
+        width: 200px;
+        padding-bottom: 20px;
+        margin: 8px;
+    }
+    h1 {
+        max-width: 160px;
+        display: flex;
+        text-align: center;
+        font-size: 12pt;
+    }
+    #quadrado2 {
+        margin: 0;
+        width: 200px;
+        margin: 8px;
+    }
+    #password {
+        font-size: 12pt;
+        max-width: 80px;
+    }
+    h2 {
+        font-size: 12pt;
+    }
+    #login {
+        font-size: 10pt;
+    }
+}
